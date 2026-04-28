@@ -54,12 +54,12 @@ st.markdown("""
 
 # ── Sidebar Navigation ─────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 💹 FinIntel Hybrid")
+    st.markdown("## FinIntel Hybrid")
     st.caption("AI-Powered Financial Intelligence")
     st.divider()
     page = st.radio(
         "Navigate",
-        options=["📈 Market Dashboard", "💸 Expense Tracker"],
+        options=[" Market Dashboard", " Expense Tracker"],
         label_visibility="collapsed",
     )
     st.divider()
@@ -71,7 +71,7 @@ with st.sidebar:
     )
 
 # ── Route ─────────────────────────────────────────────────────────────────────
-if page == "📈 Market Dashboard":
+if page == " Market Dashboard":
     market_dashboard.render()
-elif page == "💸 Expense Tracker":
+elif page == " Expense Tracker":
     expense_tracker.render()

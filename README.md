@@ -1,6 +1,4 @@
-# 💹 FinIntel Hybrid — AI-Powered Financial Intelligence Agent
-
-> **⚠️ Disclaimer:** All analysis produced by this system is for **educational purposes only** and does not constitute certified financial advice.
+#  FinIntel Hybrid — AI-Powered Financial Intelligence Agent
 
 FinIntel Hybrid is a modular, production-structured AI agent that merges two financial domains into one intelligent system:
 
@@ -11,7 +9,7 @@ Built with Python 3.10+, LangChain, LangGraph (Phase 4), FastAPI, and Streamlit.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clone the repo
@@ -38,7 +36,7 @@ App will open at → **http://localhost:8501**
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FinIntel-Hybrid/
@@ -91,7 +89,7 @@ FinIntel-Hybrid/
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 pytest tests/ -v
@@ -99,7 +97,7 @@ pytest tests/ -v
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
