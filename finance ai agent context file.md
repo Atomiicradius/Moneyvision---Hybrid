@@ -49,7 +49,7 @@ The system is built as a **Multi-Agent Orchestrator** using the following "Exper
 
 ---
 
-### **Current Objective: We are starting Phase 1 (Weeks 1-2). We need to set up the Python environment, connect to `yfinance` for NSE stocks, and build a basic Streamlit UI for receipt uploads.**
+### **Current Objective: We are starting Phase 1 (Weeks 1-2). Build a strong repository in https://github.com/Atomiicradius/Fintel-Hybrid/tree/main with the framework. We need to set up the Python environment, connect to `yfinance` for NSE stocks, and build a basic Streamlit UI for receipt uploads.**
 
 **How should we structure the initial directory to ensure scalability for the LangGraph orchestrator later?**
 

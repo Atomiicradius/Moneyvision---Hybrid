@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..",
 from tools.market.stock_data import get_stock_price, get_stock_history, is_market_open
 from tools.market.indicators import get_all_indicators
 
-DISCLAIMER = "⚠️ *This is for educational analysis, not certified financial advice.*"
+#DISCLAIMER = "⚠️ *This is for educational analysis, not certified financial advice.*"
 
 POPULAR_STOCKS = {
     "Reliance Industries": "RELIANCE.NS",
