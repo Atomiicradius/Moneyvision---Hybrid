@@ -1,0 +1,39 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# FinIntel Hybrid — Python Requirements
+# Phase 1 (Weeks 1-2)
+# ──────────────────────────────────────────────────────────────────────────────
+
+# ── Market Data ───────────────────────────────────────────────────────────────
+yfinance>=0.2.40           # NSE/BSE stock data via .NS / .BO suffix
+pandas>=2.0.0              # DataFrames for OHLCV and indicator calculations
+numpy>=1.26.0              # Vectorised math for RSI, volatility
+
+# ── OCR ───────────────────────────────────────────────────────────────────────
+pytesseract>=0.3.10        # Python wrapper for Tesseract OCR
+Pillow>=10.0.0             # Image loading / preprocessing
+
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit>=1.36.0          # Web UI framework
+plotly>=5.20.0             # Interactive charts (candlestick, pie, bar)
+
+# ── Core / Utilities ──────────────────────────────────────────────────────────
+python-dotenv>=1.0.0       # Load .env into os.environ
+pytz>=2024.1               # IST timezone handling
+typing-extensions>=4.9.0   # TypedDict with total=False (Python 3.10 compat)
+requests>=2.31.0           # HTTP client for Alpha Vantage / scraping (Phase 2)
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=8.0.0
+pytest-mock>=3.14.0        # For mocking yfinance in offline tests
+
+# ── Phase 2 (install when ready) — commented out ─────────────────────────────
+# langchain>=0.2.0
+# langchain-community>=0.2.0
+# langchain-openai>=0.1.0
+# langgraph>=0.1.0
+# faiss-cpu>=1.8.0
+# sentence-transformers>=3.0.0
+# psycopg2-binary>=2.9.9     # PostgreSQL + pgvector
+# pgvector>=0.3.0
+# beautifulsoup4>=4.12.0     # News scraping
+# newspaper3k>=0.2.8         # Article extraction

@@ -1,0 +1,44 @@
+# .gitignore — FinIntel Hybrid
+
+# Environment & secrets
+.env
+*.pem
+service-account.json
+google-credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Data (uploads & vector store are local only)
+data/uploads/
+data/vector_store/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit
+.streamlit/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
